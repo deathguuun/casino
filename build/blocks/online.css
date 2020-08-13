@@ -1,0 +1,42 @@
+.online {
+  background-image: url(/img/online-bg.png);
+  margin-top: -150px;
+  background-size: cover;
+  padding-top: 189px; }
+  .online__stroke {
+    position: relative;
+    display: flex;
+    justify-content: space-between; }
+    .online__stroke--second {
+      flex-direction: row-reverse; }
+  .online__img--mobile {
+    position: absolute;
+    left: 128px;
+    z-index: 2; }
+  .online__img--coins {
+    position: absolute;
+    left: 0;
+    z-index: 0; }
+  .online__text {
+    font-family: Gilroy;
+    max-width: 679px;
+    padding-left: 40px; }
+    .online__text--title {
+      margin-bottom: 39px;
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      line-height: 32px; }
+      .online__text--title p {
+        font-size: 60px;
+        letter-spacing: -1.2px;
+        line-height: 65px; }
+    .online__text--content {
+      margin-bottom: 36px;
+      color: #ffffff;
+      font-family: Gilroy;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.36px; }

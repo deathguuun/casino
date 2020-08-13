@@ -1,0 +1,58 @@
+.online{
+   background-image: url(/img/online-bg.png);
+   margin-top: -150px;     
+   // background-position: center;
+   background-size: cover;    
+   padding-top: 189px;
+   &__wrapper{
+
+   }
+   &__stroke{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      &--second{
+         flex-direction: row-reverse;         
+      }
+   }
+   &__img{
+      
+      &--mobile{
+         position: absolute;
+         left: 128px;
+         z-index: 2;
+      }
+      &--coins{
+         position: absolute;
+         left: 0;
+         z-index: 0;
+      }
+   }
+   &__text{
+      font-family: Gilroy;
+      max-width: 679px;
+      padding-left: 40px;
+      &--title{
+         margin-bottom: 39px;
+         color: #ffffff;         
+         font-size: 40px;
+         font-weight: 700;         
+         letter-spacing: -0.8px;
+         line-height: 32px;
+         & p{
+         font-size: 60px;
+         letter-spacing: -1.2px;
+         line-height: 65px;
+         }
+      }
+      &--content{
+         margin-bottom: 36px;
+         color: #ffffff;
+         font-family: Gilroy;
+         font-size: 18px;
+         font-weight: 400;
+         line-height: 30px;         
+         letter-spacing: 0.36px;
+      }
+   }
+}

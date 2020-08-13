@@ -1,0 +1,23 @@
+//  RESET
+@import "0-reset";
+@import "elements/button";
+
+// ELEMENTS
+@import "elements/fonts";
+@import "blocks/beginner.scss";
+@import "blocks/online.scss";
+@import "blocks/collaps.scss";
+
+
+
+.container{
+	width: 1220px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.container-lg{
+	width: 1380px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
