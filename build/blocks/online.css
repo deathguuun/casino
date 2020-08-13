@@ -4,19 +4,10 @@
   background-size: cover;
   padding-top: 189px; }
   .online__stroke {
-    position: relative;
     display: flex;
     justify-content: space-between; }
     .online__stroke--second {
       flex-direction: row-reverse; }
-  .online__img--mobile {
-    position: absolute;
-    left: 128px;
-    z-index: 2; }
-  .online__img--coins {
-    position: absolute;
-    left: 0;
-    z-index: 0; }
   .online__text {
     font-family: Gilroy;
     max-width: 679px;
@@ -40,3 +31,7 @@
       font-weight: 400;
       line-height: 30px;
       letter-spacing: 0.36px; }
+  .online__btn {
+    display: flex; }
+    .online__btn .button {
+      margin-right: 18px; }

@@ -61,10 +61,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer; }
+  cursor: pointer;
+  height: 48px; }
   .button--yellow {
-    width: 166px;
-    height: 48px;
     box-shadow: 0 5px 0 #293642;
     border: 2px solid #00070e;
     background-color: #f4c300; }
@@ -76,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 32px;
     text-transform: uppercase;
     letter-spacing: 0.36px; }
+  .button--sm {
+    width: 166px; }
+  .button--lg {
+    width: 296px; }
 
 @font-face {
   font-family: 'Gilroy';
@@ -158,19 +161,10 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   padding-top: 189px; }
   .online__stroke {
-    position: relative;
     display: flex;
     justify-content: space-between; }
     .online__stroke--second {
       flex-direction: row-reverse; }
-  .online__img--mobile {
-    position: absolute;
-    left: 128px;
-    z-index: 2; }
-  .online__img--coins {
-    position: absolute;
-    left: 0;
-    z-index: 0; }
   .online__text {
     font-family: Gilroy;
     max-width: 679px;
@@ -194,6 +188,10 @@ h1, h2, h3, h4, h5, h6 {
       font-weight: 400;
       line-height: 30px;
       letter-spacing: 0.36px; }
+  .online__btn {
+    display: flex; }
+    .online__btn .button {
+      margin-right: 18px; }
 
 .question__img {
   text-align: center;
