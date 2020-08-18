@@ -1,23 +1,23 @@
 //  RESET
 @import "0-reset";
-@import "elements/button";
+@import "1-vars";
+
+//MIXINS
+@import "mixins/media";
+
+@import "5-typography";
 
 // ELEMENTS
 @import "elements/fonts";
-@import "blocks/beginner.scss";
-@import "blocks/online.scss";
-@import "blocks/collaps.scss";
+@import "elements/container";
+@import "elements/button";
+
+//BLOCKS
+@import "blocks/beginner";
+@import "blocks/online";
+@import "blocks/collaps";
 
 
-
-.container{
-	width: 1220px;
-	padding: 0 10px;
-	margin: 0 auto;
-}
-
-.container-lg{
-	width: 1380px;
-	padding: 0 10px;
-	margin: 0 auto;
+body{
+	overflow-x: hidden;
 }

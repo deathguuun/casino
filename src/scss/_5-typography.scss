@@ -1,0 +1,75 @@
+body {
+  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+html {
+  font-size: 100%;
+}
+
+/*16px*/
+
+menu,
+ol,
+ul {
+  padding: 0;
+}
+
+dd {
+  margin: 0;
+}
+
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  line-height: 1.15;
+  color: $green-dark;
+
+  span {
+    color: $green-light;
+  }
+
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.488em;
+}
+
+h2 {
+  font-size: 2.074em;
+}
+
+h3 {
+  font-size: 1.728em;
+}
+
+h4 {
+  font-size: 1.44em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+small, .text_small {
+  font-size: 0.833em;
+}
+
+small, .text_small {
+  font-size: 0.75em;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}

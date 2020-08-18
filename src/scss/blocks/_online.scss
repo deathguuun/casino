@@ -1,25 +1,24 @@
 .online{
-   background-image: url(/img/online-bg.png);
-   margin-top: -150px;     
-   // background-position: center;
+   background: url(/img/online-bg.png) ;
+   min-width: 100%;
+   background-position: center;
+   background-size: cover;
+   overflow: hidden;
+   margin-top: -200px; 
+   padding-bottom: 200px;    
+   background-position: center;
    background-size: cover;    
    padding-top: 189px;
-   &__wrapper{
-
-   }
-   &__stroke{
-      
+   z-index: 1;
+     &__stroke{
       display: flex;
       justify-content: space-between;
       &--second{
          flex-direction: row-reverse;         
       }
-   }
-   &__img{
-
-    }
-   
+   }   
    &__text{
+      overflow: hidden;
       font-family: Gilroy;
       max-width: 679px;
       padding-left: 40px;
