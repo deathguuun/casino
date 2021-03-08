@@ -1,0 +1,18 @@
+.title{   
+   font-family: Gilroy;
+   color: #042b2d;
+   &--lg{      
+      color: #042b2d;      
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 80px;
+   }
+   &--sm{      
+      font-size: 50px;
+      letter-spacing: -1px;      
+      letter-spacing: -1.6px;
+   }
+   &--green{
+      color: #219279;
+   }
+}

@@ -1,0 +1,21 @@
+.campaigns {
+  &__title {
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #042b2d;
+    margin: 50px 0 35px 0;
+  }
+  &__text {
+    font-family: Gilroy;
+    color: #042b2d;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  &__timer {
+    color: black;
+    font-size: 18px;
+  }
+}

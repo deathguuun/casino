@@ -1,38 +1,31 @@
-.beginner{
-   margin-top: 200px; 
+.beginner{    
    padding-bottom: 200px;  
    background: url(/img/beginner-bg.png) no-repeat;
    background-position: center;
-   background-size: cover;    
-   &__wrapper{
-      margin-top: -100px;
+   background-size: cover; 
+   overflow: hidden;     
+   &__wrapper{      
       display: flex; 
-      justify-content: space-between;    
+      justify-content: space-between;     
    }
-   &__intro{      
-      overflow: hidden;        
-   }
-   &__logo{     
-      img{
-         max-width: 100%;
-      }     
-   }
+   &__title{
+      
+   }    
    &__text{
       margin-top: 25px;
       margin-bottom: 33px;
       color: #042b2d;
-      font-family: Gilroy;
-      // font-size: 18px;
+      font-family: Gilroy;     
       font-size: calc(14px + 4 * ((100vw - 320px) / (1170 - 320)));
       font-weight: 400;
       line-height: 30px;         
       letter-spacing: 0.36px;
    }
    &__img{ 
-      display: flex;   
+      display: flex;        
       align-items: center;
       img{
-         height: auto;
+        height: auto;
       }
    }       
    &__content{
@@ -83,12 +76,20 @@
          letter-spacing: 0.32px;        
    }         
 }
-
-@include lg-d {
+@include xl-d{
    .beginner{      
       &__img{          
          img{
-            max-width: 440px;
+            
+         }
+      }
+   }
+}
+@include lg-d {
+   .beginner{      
+      &__img{          
+         img{            
+            max-width: 450px;
          }
       }
       &__item{

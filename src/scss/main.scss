@@ -11,13 +11,14 @@
 @import "elements/fonts";
 @import "elements/container";
 @import "elements/button";
+@import "elements/title";
 
 //BLOCKS
 @import "blocks/beginner";
 @import "blocks/online";
 @import "blocks/collaps";
+@import "blocks/campaigns";
 
-
-body{
-	overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
