@@ -341,23 +341,23 @@ label {
     .online__btn .button {
       margin-right: 18px; }
 
-.question {
+.faq {
   overflow: hidden;
   margin-top: 200px; }
-  .question__img {
+  .faq__img {
     text-align: center;
     margin-bottom: 55px; }
-    .question__img img {
+    .faq__img img {
       width: auto; }
-  .question__wrapper {
+  .faq__wrapper {
     display: flex; }
-  .question__column {
+  .faq__column {
     margin-right: 30px;
     flex: 50%;
     justify-content: space-between; }
-    .question__column:last-child {
+    .faq__column:last-child {
       margin-right: 0px; }
-  .question__title {
+  .faq__title {
     position: relative;
     background-color: #eaf0f0;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
@@ -370,10 +370,10 @@ label {
     font-size: 17px;
     text-align: left;
     transition: 0.5s; }
-    .question__title.active {
+    .faq__title.active {
       background-color: #3db49a;
       color: #fff; }
-  .question__icon {
+  .faq__icon {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -385,7 +385,7 @@ label {
     cursor: pointer;
     z-index: 100;
     transition: 0.2s cubic-bezier(0.2, 0.6, 0.3, 1.1); }
-    .question__icon::after {
+    .faq__icon::after {
       content: '';
       position: absolute;
       top: 50%;
@@ -394,7 +394,7 @@ label {
       height: 2px;
       width: 30%;
       background: black; }
-    .question__icon::before {
+    .faq__icon::before {
       content: '';
       position: absolute;
       top: 50%;
@@ -403,12 +403,12 @@ label {
       height: 30%;
       width: 2px;
       background: black; }
-    .question__icon.clicked {
+    .faq__icon.clicked {
       transform: translate(-50%, -50%) rotate(360deg);
       background: #fff; }
-    .question__icon.clicked:before {
+    .faq__icon.clicked:before {
       width: 0; }
-  .question__content {
+  .faq__content {
     display: none;
     padding: 0px 33px;
     margin-top: 10px;
